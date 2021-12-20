@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TableRow>
+        <TextView
+            android:text="EXAMINATION"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <TextView
+            android:text="BOARD"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <TextView
+            android:text="PERCENTAGE"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <TextView
+            android:text="YEAR OF PASSING"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="SSLC"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="PLUS TWO"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="GRADUATION"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </TextView>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+        <EditText
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="15dp">
+
+        </EditText>
+    </TableRow>
+    <View
+        android:background="#ffffff"
+        android:layout_height="100dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:background="#008080"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+        android:textStyle="bold">
+    </Button>
+
+</TableLayout>
